@@ -11,6 +11,7 @@ def key_for_min_value(name_hash)
     holding_value = value
     if value < holding_value
       holding_value = value 
+      holding_key = key 
       
   end 
   holding_key
