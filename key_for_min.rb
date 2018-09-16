@@ -7,11 +7,12 @@ def key_for_min_value(name_hash)
   holding_value = nil 
   name_hash.each do |key, value|
     binding.pry 
-    holding_key = key 
-    holding_value = value
-    if value < holding_value
-      holding_value = value 
+    if holding_key = nil && holding_value = nil 
       holding_key = key 
+      holding_value = value
+        if value < holding_value
+         holding_value = value 
+        holding_key = key 
     end 
   end 
   holding_key
