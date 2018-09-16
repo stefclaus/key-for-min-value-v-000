@@ -3,9 +3,11 @@
 require 'pry' 
 
 def key_for_min_value(name_hash)
+   holding_key =
+  holding_value =
   name_hash.each do |key, value|
     binding.pry 
-    value <=> value 
-    puts key 
+    
   end 
+  holding_key
 end
